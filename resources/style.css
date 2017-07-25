@@ -1,0 +1,183 @@
+.layout  {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header  {
+      display: flex;
+      align-items: center;
+      position: fixed;
+      z-index: 1;
+      width: 100%;
+      height: 80px;
+      border-bottom: 1px solid black;
+      background-color: white;
+      font-family: Verdana;
+      font-size: 14px;
+      font-weight: bold;
+  }
+
+  .logo {
+      display: flex;
+      align-items: center;
+      flex-grow: 1;
+      padding-left: 30px;
+  }
+
+.logo img {
+      width: 70px;
+      height: 60px;
+      margin-right: 12px;
+}
+
+.logo span  {
+      color:MediumAquamarine;
+    }
+
+
+ a  {
+    color: black;
+}
+
+nav span{
+     display: inline-block;
+     padding: 20px 10px;
+}
+
+
+
+.content  {
+    display: flex;
+    width: 1232px;
+    margin: 0 auto 78px auto;
+    padding-top: 116px;
+}
+
+
+
+/*COLUMN 1 */
+
+.column1{
+    margin: 10px;
+}
+
+
+#mother  {
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+    width: 630px;
+    height: 300px;
+    margin-top: 40px;
+    text-align: left;
+    background-image: url(./img-story-main.png);
+
+}
+
+#orca  {
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 290px;
+    padding-right: 25px;
+    text-align: left;
+}
+
+
+#burger  {
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 290px;
+    padding-right: 25px;
+    text-align: left;
+
+}
+
+
+#earth  {
+    display: inline-flex;
+    flex-wrap: wrap;
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    width: 250px;
+    padding-left: 40px;
+    margin-top: 20px;
+    background-image: url(./img-story-2.png);
+
+
+}
+
+#research  {
+    display: inline-flex;
+    flex-wrap: wrap;
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 30px;
+    width: 250px;
+    margin-left: 10px;
+    margin-top: 20px;
+    padding-right: 40px;
+    color: white;
+    background-image: url(./img-story-3.png);
+
+}
+
+
+
+/*COLUMN 2 */
+.column2  {
+    display: flex;
+    flex-direction: column;
+    font-family: Georgia;
+    font-size: 17px;
+    color: black;
+    width: 300px;
+    height: auto;
+    padding: 25px;
+
+}
+
+#cats  {
+    display: flex;
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    background-image: url(./img-story-1.png);
+
+}
+
+/*COLUMN 3 */
+.column3  {
+    display: flex;
+    flex-direction: column;
+    font-family: Georgia;
+    font-size: 17px;
+    color: black;
+    width: 240px;
+    height: auto;
+    padding: 40px;
+}
+
+#bites  {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.links  {
+    display: block;
+    flex-direction: column;
+    border-bottom: 1px solid black;
+    background-color: WhiteSmoke;
+    font-family: Verdana;
+    font-size: 12px;
+    padding: 11px 20px;
+    color: DimGray;
+}
