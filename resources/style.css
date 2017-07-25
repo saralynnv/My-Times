@@ -192,3 +192,33 @@ nav span{
     padding: 11px 20px;
     color: DimGray;
 }
+
+
+footer   {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: MediumAquamarine;
+    margin: auto;
+    width: 100%;
+    height: 325px;
+    font-family: Verdana;
+    font-size: 12px;
+}
+
+#mytimes  {
+    display: flex;
+    align-items: center;
+    font-family: Georgia;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+
+}
+
+#copy   {
+      display: flex;
+      padding-top: 50px;
+      margin: 10px;
+
+}
