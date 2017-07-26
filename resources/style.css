@@ -40,7 +40,7 @@ header  {
     color: black;
 }
 
-nav span{
+nav span  {
      display: inline-block;
      padding: 20px 10px;
 }
@@ -58,7 +58,7 @@ nav span{
 
 /*COLUMN 1 */
 
-.column1{
+.column1  {
     margin: 10px;
 }
 
@@ -66,7 +66,7 @@ nav span{
 #mother  {
     display: inline-flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    justify-content: center;
     font-family: Georgia;
     font-weight: bold;
     font-size: 40px;
@@ -74,25 +74,27 @@ nav span{
     width: 630px;
     height: 300px;
     margin-top: 40px;
-    text-align: left;
+    text-align: center;
     background-image: url(./img-story-main.png);
 
 }
 
 #orca  {
     display: inline-flex;
-    flex-wrap: wrap;
-    width: 290px;
-    padding-right: 15px;
+    justify-content: center;
+    flex-direction: column;
+    width: 300px;
+    margin: 5px;
     text-align: left;
 }
 
 
 #burger  {
     display: inline-flex;
-    flex-wrap: wrap;
-    width: 290px;
-    padding-right: 15px;
+    justify-content: center;
+    flex-direction: column;
+    width: 300px;
+    margin: 5px;
     text-align: left;
 
 }
@@ -100,14 +102,15 @@ nav span{
 
 #earth  {
     display: inline-flex;
-    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
     font-family: Georgia;
     font-weight: bold;
     font-size: 30px;
     color: white;
-    width: 250px;
-    padding-left: 40px;
-    margin-top: 20px;
+    width: 300px;
+    margin: 5px;
+    text-align: center;
     background-image: url(./img-story-2.png);
 
 
@@ -115,15 +118,15 @@ nav span{
 
 #research  {
     display: inline-flex;
-    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
     font-family: Georgia;
     font-weight: bold;
     font-size: 30px;
-    width: 250px;
-    margin-left: 10px;
-    margin-top: 20px;
-    padding-right: 40px;
+    width: 300px;
+    margin: 5px;
     color: white;
+    text-align: center;
     background-image: url(./img-story-3.png);
 
 }
@@ -153,6 +156,7 @@ nav span{
 #cats  {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     font-family: Georgia;
     font-weight: bold;
     font-size: 30px;
@@ -198,6 +202,7 @@ footer   {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     background-color: MediumAquamarine;
     margin: auto;
     width: 100%;
@@ -209,16 +214,21 @@ footer   {
 #mytimes  {
     display: flex;
     align-items: center;
-    font-family: Georgia;
-    font-size: 16px;
-    font-weight: bold;
-    color: white;
 
+  }
+
+
+#brand  {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-right: white solid 2px;
+  padding: 10px;
 }
 
-#copy   {
-      display: flex;
-      padding-top: 50px;
-      margin: 10px;
 
+
+#copy   {
+      display: block;
 }
